@@ -51,16 +51,15 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'spree' # core and API
-gem 'spree_auth_devise', '~> 4.3' # Devise integration (optional)
 gem 'spree_backend' # Rails admin panel (optional)
 gem 'spree_emails' # transactional emails (optional)
 gem 'spree_frontend'
 gem 'spree_gateway', '~> 3.9' # payment gateways eg. Stripe, Braintree (optional)
 gem 'spree_i18n', '~> 5.0' # translation files (optional)
 gem 'spree_sample' # dummy data like products, taxons, etc
-
+gem 'spree_auth_devise', '~> 4.3' # Devise integration (optional)
 # only needed for MacOS and Ruby 3.0
-gem 'sassc', github: 'sass/sassc-ruby', branch: 'master'
+# gem 'sassc', github: 'sass/sassc-ruby', branch: 'master'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
